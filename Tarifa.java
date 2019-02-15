@@ -1,3 +1,5 @@
+//https://open.kattis.com/problems/tarifa
+
 import java.util.Scanner;
 import java.lang.Math;
 import java.lang.*;
