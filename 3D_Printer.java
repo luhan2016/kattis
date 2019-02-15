@@ -1,3 +1,5 @@
+//https://open.kattis.com/problems/3dprinter
+
 import java.util.Scanner;
 import java.lang.Math;
 import java.lang.*;
