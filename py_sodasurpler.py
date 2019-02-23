@@ -8,11 +8,15 @@ f = num[1]
 c = num[2]
 count=0
 while(e+f>=c):
-    e=int((e+f)/c)
+    t=int((e+f)/c)
     f=(e+f)%c
+    e=t
     count = count+e 
-    print(count)
 print(int(count))
+
+
+
+
 
 
 
