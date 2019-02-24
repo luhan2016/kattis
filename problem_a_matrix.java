@@ -25,3 +25,23 @@ public class Main{
     }
 }
 
+
+
+
+
+import sys
+import math
+
+i=0
+while True:
+	string = sys.stdin.readline()
+	if string == "":
+		break
+	(a,b)= map(int, string.split())
+	(c,d)= map(int, sys.stdin.readline().split())
+	div = a*d-b*c 
+	i=i+1
+	print("Case {}:".format(i))
+	print("{} {}".format(int(d/div), int(-b/div)))
+	print("{} {}".format(int(-c/div), int(a/div)))
+	sys.stdin.readline()
